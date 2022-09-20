@@ -1,9 +1,11 @@
 <?php
 
 echo "Hello World!";
-<?php
+
 $ext = get_loaded_extensions();
 asort($ext);
 foreach ($ext as $ref) {
     echo $ref . "\n";
 }
+
+<?php
